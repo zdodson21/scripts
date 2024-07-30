@@ -1,7 +1,7 @@
 # Directory Variables
-formatDirectory=~/Documents
-  stylingDirectory=$formatDirectory/styling;
-  projectsDirectory=$formatDirectory/projects;
+defaultStartingDirectory=~/Documents
+  stylingDirectory=$defaultStartingDirectory/styling;
+  projectsDirectory=$defaultStartingDirectory/projects;
     artDirectory=$projectsDirectory/art;
     developmentDirectory=$projectsDirectory/development;
     modellingDirectory=$projectsDirectory/modelling;
@@ -10,7 +10,7 @@ formatDirectory=~/Documents
     writingDirectory=$projectsDirectory/writing;
 
 # Commands
-mkdir -p $formatDirectory; echo "Created $formatDirectory";
+mkdir -p $defaultStartingDirectory; echo "Created $defaultStartingDirectory";
   mkdir -p $stylingDirectory; echo "Created $stylingDirectory";
   mkdir -p $projectsDirectory; echo "Created $projectsDirectory";
     mkdir -p $artDirectory; echo "Created $artDirectory";
