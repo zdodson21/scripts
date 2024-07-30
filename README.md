@@ -3,7 +3,8 @@ Collection of scripts in various languages I can utilize
 
 ---
 
-## Script File Paths
+## changeTextInFile.py
+**Change given text within a file. Navigate to the directory of the file, then input the text you want replaced, and what it should be replaced with.**
 
-### Change Text in Files
-Path - `./file-management/changeTextInFile.py`
+## createFolderStructure.ps1 & .sh
+**Automatically make my preferred folder structure for projects. Default starting directory is set to ~/Documents, but you can set it to whatever you prefer.**
