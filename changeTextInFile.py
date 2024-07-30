@@ -14,7 +14,7 @@ finalFilePath = path.join(startingPath, filePath)
 print (f'Selected filePath: {finalFilePath}')
 
 currentText = input('Current Text (the text you want replaced): ') # set text you want to change here
-print(f'Replacable text set to: {currentText}')
+print(f'Current text set to: {currentText}')
 
 replacementText = input('Replacement Text: ') # set replacement text here
 print(f'Replacement text set to: {replacementText}')
