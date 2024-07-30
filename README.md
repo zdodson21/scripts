@@ -1,5 +1,7 @@
 # scripts
-Collection of scripts in various languages I can utilize
+Collection of scripts in various languages I can utilize.  
+
+For most of these you can probably just go to the file you want, download the raw file, and run it (probably best to do in command line for most of these).
 
 ---
 
