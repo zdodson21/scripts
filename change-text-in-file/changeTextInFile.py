@@ -5,7 +5,6 @@ from os import path
 # This file serves the purpose of navigating a file and changing specified text within the file
 print('Running changeTextInFile.py (Use CTRL + C to exit)')
 
-
 # Variables:
 isDirectory = ''
 
@@ -43,7 +42,7 @@ if (isDirectory == 'n'):
 elif (isDirectory == 'y'):
 
   startingPath = pathlib.Path.home()
-  directory = input(f'Directory path (starting at {startingPath}): ') # set file path here
+  directory = input(f'Directory path (starting at {startingPath}): ') # set directory here
   finalDirectory = path.join(startingPath, directory)
   print (f'Selected directory: {finalDirectory}')
 
@@ -64,13 +63,5 @@ elif (isDirectory == 'y'):
 
     with open(filePath, 'w') as file:
       file.write(filedata)
-
-  # with open(finalFilePath, 'r') as file:
-  #   filedata = file.read()
-
-  # filedata = filedata.replace(currentText, replacementText)
-
-  # with open(finalFilePath, 'w') as file:
-  #   file.write(filedata)
 
   print('Done modifying files in directory!')
