@@ -1,5 +1,5 @@
 # Directory Variables
-defaultStartingDirectory=~/Documents
+defaultStartingDirectory=~/Documents;
   stylingDirectory=$defaultStartingDirectory/styling;
   projectsDirectory=$defaultStartingDirectory/projects;
     artDirectory=$projectsDirectory/art;
