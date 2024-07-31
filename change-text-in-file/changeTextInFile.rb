@@ -1,1 +1,0 @@
-# This script should function the same as changeTextInFile.py. If for whatever reason this does not work, try that one.
