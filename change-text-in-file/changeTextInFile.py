@@ -2,7 +2,7 @@
 import pathlib
 from os import path
 
-# This file serves the purpose of navigating a file and changing specified text within the file
+# Python version of Change Text in File script
 print('Running changeTextInFile.py (Use CTRL + C to exit)')
 
 # Variables:

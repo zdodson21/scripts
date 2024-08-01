@@ -1,4 +1,4 @@
-# I wanted to write something in Ruby for some reason, so this should function the same as the python version.
+# Ruby version of change-text-in-file
 
 puts('Running changeTextInFile.rb (Use CTRL + C to exit)')
 
