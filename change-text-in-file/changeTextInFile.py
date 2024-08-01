@@ -9,7 +9,7 @@ print('Running changeTextInFile.py (Use CTRL + C to exit)')
 isDirectory = ''
 
 while isDirectory != 'y' and isDirectory != 'n':
-  isDirectory = input('Are you trying to change multiple files in a directory? (y/n) ')
+  isDirectory = input('Are you trying to change multiple files in a directory? (y/n): ')
 
   if isDirectory != 'y' and isDirectory != 'n':
     print('Invalid input. Please try again.')
