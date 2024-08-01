@@ -8,23 +8,23 @@ print('Running changeTextInFile.py (Use CTRL + C to exit)')
 # Variables:
 isDirectory = ''
 
-while (isDirectory != 'y' and isDirectory != 'n'):
+while isDirectory != 'y' and isDirectory != 'n':
   isDirectory = input('Are you trying to change multiple files in a directory? (y/n) ')
 
-  if (isDirectory != 'y' and isDirectory != 'n'):
+  if isDirectory != 'y' and isDirectory != 'n':
     print('Invalid input. Please try again.')
 
-if (isDirectory == 'n'):
+if isDirectory == 'n':
 
   startingPath = pathlib.Path.home()
-  filePath = input(f'File Name (starting at {startingPath}): ') # set file path here
+  filePath = input(f'File Name (starting at {startingPath}): ')  # set file path here
   finalFilePath = path.join(startingPath, filePath)
-  print (f'Selected filePath: {finalFilePath}')
+  print(f'Selected filePath: {finalFilePath}')
 
-  currentText = input('Current Text (the text you want replaced): ') # set text you want to change here
+  currentText = input('Current Text (the text you want replaced): ')  # set text you want to change here
   print(f'Current text set to: {currentText}')
 
-  replacementText = input('Replacement Text: ') # set replacement text here
+  replacementText = input('Replacement Text: ')  # set replacement text here
   print(f'Replacement text set to: {replacementText}')
 
   print('Running...')
@@ -39,17 +39,17 @@ if (isDirectory == 'n'):
 
   print('Done modifying file!')
 
-elif (isDirectory == 'y'):
+elif isDirectory == 'y':
 
   startingPath = pathlib.Path.home()
-  directory = input(f'Directory path (starting at {startingPath}): ') # set directory here
+  directory = input(f'Directory path (starting at {startingPath}): ')  # set directory here
   finalDirectory = path.join(startingPath, directory)
-  print (f'Selected directory: {finalDirectory}')
+  print(f'Selected directory: {finalDirectory}')
 
-  currentText = input('Current Text (the text you want replaced): ') # set text you want to change here
+  currentText = input('Current Text (the text you want replaced): ')  # set text you want to change here
   print(f'Current text set to: {currentText}')
 
-  replacementText = input('Replacement Text: ') # set replacement text here
+  replacementText = input('Replacement Text: ')  # set replacement text here
   print(f'Replacement text set to: {replacementText}')
 
   # Code:
