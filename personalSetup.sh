@@ -25,6 +25,8 @@ sudo apt install vim -y; # vim
 sudo apt install wine -y; # wine
 sudo apt install zsh -y; # zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # oh-my-zsh
+sudo apt-get install wget -y; # wget
+sudo apt install dosbox -y; # dosbox
 
 # Set up Git
 git config --global user.name $name;
