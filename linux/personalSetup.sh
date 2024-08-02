@@ -26,8 +26,8 @@ sudo apt install dosbox -y &&
 sudo apt-get install php -y
 ;
 
-# Oh My ZSH
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # oh-my-zsh
+cd ~;
+touch .bash_profile;
 
 # Set up Git
 git config --global user.name $name;
@@ -35,10 +35,10 @@ git config --global user.name;
 git config --global user.email $email;
 git config --global user.email;
 
-cd ~;
-touch .bash_profile;
-
 # NVM / Node / NPM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash; # Node Version Manager (nvm)
 nvm install --lts; # Node LTS & NPM
 npm install -global yarn; # Yarn
+
+# Oh My ZSH
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # oh-my-zsh
