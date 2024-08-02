@@ -1,5 +1,6 @@
 # Supposed to use commands from bash, but tutorial ego is preventing me from figuring out how to get this to actually work lol
-source /home/zdodson/.bash_profile
+# Replace "YOUR_USERNAME" with your username
+source /home/YOUR_USERNAME/.bash_profile
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
