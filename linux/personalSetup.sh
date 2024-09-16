@@ -1,4 +1,5 @@
 # Need to test, but should hopefully be able to just run and work.
+# Before running this file, please install and make the default terminal ZSH / Oh My ZSH
 
 # Git Preparation
 read -p "Enter your preferred username for Git: " name;
