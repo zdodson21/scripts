@@ -2,7 +2,6 @@
 import pathlib
 from os import path
 
-# Python version of Change Text in File script
 print('Running changeTextInFile.py (Use CTRL + C to exit)')
 
 # Variables:
