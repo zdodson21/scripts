@@ -1,8 +1,14 @@
 # Imports
 import pathlib
+import platform
 from os import path
 
 print('Running changeTextInFile.py (Use CTRL + C to exit)')
+
+if platform.system() == 'Windows':
+  slash = '\\'
+else:
+  slash = '/'
 
 # Variables:
 isDirectory = ''
@@ -16,7 +22,7 @@ while isDirectory != 'y' and isDirectory != 'n':
 if isDirectory == 'n':
 
   startingPath = pathlib.Path.home()
-  filePath = input(f'File Name (starting at {startingPath}): ')  # set file path here
+  filePath = input(f'File Name (starting at {startingPath}{slash}): ')  # set file path here
   finalFilePath = path.join(startingPath, filePath)
   print(f'Selected filePath: {finalFilePath}')
 
