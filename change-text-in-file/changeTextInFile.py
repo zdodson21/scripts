@@ -6,7 +6,7 @@ from os import path
 print('Running changeTextInFile.py (Use CTRL + C to exit)')
 
 if platform.system() == 'Windows':
-  slash = '\\'
+  slash = "\\"
 else:
   slash = '/'
 
@@ -47,7 +47,7 @@ if isDirectory == 'n':
 elif isDirectory == 'y':
 
   startingPath = pathlib.Path.home()
-  directory = input(f'Directory path (starting at {startingPath}): ')  # set directory here
+  directory = input(f'Directory path (starting at {startingPath}{slash}): ')  # set directory here
   finalDirectory = path.join(startingPath, directory)
   print(f'Selected directory: {finalDirectory}')
 
