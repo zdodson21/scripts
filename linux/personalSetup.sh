@@ -23,9 +23,12 @@ sudo apt install vim -y &&
 sudo apt install wine -y &&
 sudo apt install zsh -y &&
 sudo apt-get install wget -y &&
-sudo apt install dosbox -y &&
+# sudo apt install dosbox -y &&
 sudo apt-get install php -y
 ;
+
+# Install Perl
+curl -L http://xrl.us/installperlnix | bash
 
 cd ~;
 touch .bash_profile;
@@ -39,7 +42,8 @@ git config --global user.email;
 # NVM / Node / NPM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash; # Node Version Manager (nvm)
 nvm install --lts; # Node LTS & NPM
-npm install -global yarn; # Yarn
+npm install --global yarn; # Yarn
+npm install --global typescript; # Typescript
 
 # Oh My ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" # oh-my-zsh
