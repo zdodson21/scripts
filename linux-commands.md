@@ -68,7 +68,10 @@ git config --global user.email;
 ### Node Version Manager + Node & NPM
 
 ``` Shell
+# Install Node Version Manager
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash;
+
+# Install latest versions of Node & NPM
 nvm install --lts;
 ```
 
@@ -131,6 +134,10 @@ sudo apt-get install python3-pip -y;
 ### TypeScript
 
 `npm install --global typescript;`
+
+### Vercel
+
+`npm i -g vercel`
 
 ### VLC
 
