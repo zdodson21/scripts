@@ -61,6 +61,10 @@ git config --global user.email $email;
 git config --global user.email;
 ```
 
+### Neovim
+
+`sudo apt install neovim -y`
+
 ### Node Version Manager + Node & NPM
 
 ``` Shell
@@ -80,6 +84,35 @@ nvm install --lts;
 
 `sudo apt install php -y`
 
+### PowerShell
+
+``` Shell
+###################################
+# Prerequisites
+
+# Update the list of packages
+sudo apt-get update
+
+# Install pre-requisite packages.
+sudo apt-get install -y wget
+
+# Download the PowerShell package file
+wget https://github.com/PowerShell/PowerShell/releases/download/v7.4.6/powershell_7.4.6-1.deb_amd64.deb
+
+###################################
+# Install the PowerShell package
+sudo dpkg -i powershell_7.4.6-1.deb_amd64.deb
+
+# Resolve missing dependencies and finish the install (if necessary)
+sudo apt-get install -f
+
+# Delete the downloaded package file
+rm powershell_7.4.6-1.deb_amd64.deb
+
+# Start PowerShell
+pwsh
+```
+
 ### Python
 
 ``` Shell
@@ -90,6 +123,10 @@ sudo apt-get install python3-pip -y;
 ### Ruby
 
 `sudo apt-get install ruby-full -y`
+
+### Rust
+
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
 
 ### TypeScript
 
